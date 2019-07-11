@@ -1,0 +1,43 @@
+{
+    "msgs": [
+        {
+            "name": "Msg1",
+            "fields": [
+                {
+                    "name": "boolField",
+                    "type": "bool"
+                },
+                {
+                    "name": "intField",
+                    "type": "int"
+                },
+                {
+                    "name": "floatField",
+                    "type": "float"
+                },
+                {
+                    "name": "stringField",
+                    "type": "string"
+                },
+                {
+                    "name": "msg2List",
+                    "type": "Msg2",
+                    "listType": true
+                }
+            ]
+        },
+        {
+            "name": "Msg2",
+            "fields": [
+                {
+                    "name": "boolField",
+                    "type": "bool"
+                },
+                {
+                    "name": "intField",
+                    "type": "int"
+                }
+            ]
+        }
+    ]
+}
